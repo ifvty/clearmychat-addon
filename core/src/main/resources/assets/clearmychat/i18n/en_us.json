@@ -1,0 +1,26 @@
+
+{
+  "clearmychat": {
+    "settings": {
+      "enabled": {
+        "name": "Enabled",
+        "description": "Enable or disable the ClearMyChat addon."
+      },
+      "autoClear": {
+        "name": "Auto Clear",
+        "description": "Automatically clear the chat when joining a server."
+      },
+      "clearDelay": {
+        "name": "Clear Chat Delay",
+        "description": "Delay (in seconds) before clearing the chat. Set to 0 for instant clear.",
+        "min": 0,
+        "max": 5,
+        "step": 1
+      },
+      "confirmationMessage": {
+        "name": "Confirmation Message",
+        "description": "Customize the message displayed when the chat is cleared."
+      }
+    }
+  }
+}
