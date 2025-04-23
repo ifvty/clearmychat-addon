@@ -65,12 +65,4 @@ public class AutoClearListener {
     );
   }
 
-  private void pushNotificationIcon(String title, String text, Icon icon) {
-    Notification.Builder builder = Notification.builder()
-        .title(Component.text(title))
-        .text(Component.text(text))
-        .icon(icon)
-        .type(Type.SYSTEM);
-    this.addon.labyAPI().notificationController().push(builder.build());
-  }
 }
